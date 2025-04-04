@@ -6,7 +6,7 @@ namespace Nopjo
 {
     public class BetManager
     {
-        private readonly int[] betAmounts = new int[] { 100, 200, 500, 1000, 2000, 5000, 10000, 25000 };
+        private readonly int[] betAmounts = new int[] { 10, 25, 50, 75, 100, 200, 300, 500, 750, 1000, 1500, 2000, 3000, 5000, 7500, 10000, 15000, 20000, 25000, 50000, 100000 };
         private int currentBetIndex = 0;
 
         public string GetBetAmountsString()

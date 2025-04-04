@@ -4,17 +4,17 @@ using System.Runtime.InteropServices;
 using Nopjo;
 using MelonLoader;
 
-[assembly: MelonInfo(typeof(Nopjo.BlackjackBetModifier), "CustomBets", "1.0.0", "CustomBets")]
+[assembly: MelonInfo(typeof(Nopjo.ExtendedCasinoBets), "ExtendedCasinoBets", "1.0.0", "CustomBets")]
 [assembly: MelonGame(null, "Schedule I")]
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CustomBets")]
+[assembly: AssemblyTitle("ExtendedCasinoBets")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CustomBets")]
+[assembly: AssemblyProduct("ExtendedCasinoBets")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

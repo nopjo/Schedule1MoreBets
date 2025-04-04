@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CustomBets</RootNamespace>
-    <AssemblyName>CustomBets</AssemblyName>
+    <AssemblyName>ExtendedCasinoBets</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -31,11 +31,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="BetManager.cs" />
-    <Compile Include="BlackjackInterfaceMonitor.cs" />
-    <Compile Include="Main.cs" />
+    <Compile Include="src\BetManager.cs" />
+    <Compile Include="src\BlackjackInterfaceMonitor.cs" />
+    <Compile Include="src\Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SlotMachineModifier.cs" />
+    <Compile Include="src\SlotMachineModifier.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
